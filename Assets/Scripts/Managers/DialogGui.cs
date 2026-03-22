@@ -21,6 +21,10 @@ public class DialogGui : MonoBehaviour
     public GameObject playerBar;
     public GameObject npcBar;
 
+    public Text charText;
+    public Text npcText;
+    public Text choices;
+
     void Start()
     {
         Instance = this; // Необходимо для того, чтобы можно было в коде обратиться к классу
