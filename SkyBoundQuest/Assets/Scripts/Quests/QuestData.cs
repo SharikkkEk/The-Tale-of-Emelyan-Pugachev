@@ -1,11 +1,15 @@
-using UnityEngine;
 using System.Collections.Generic;
 
-[CreateAssetMenu(menuName = "Game/Quest")]
-public class QuestData : ScriptableObject
+[System.Serializable]
+public class QuestData
 {
     public string questName;
-    [TextArea] public string description;
-
+    public string description;
     public List<ChoiceData> choices;
+
+    // для отладки
+    public override string ToString()
+    {
+        return $"{questName}: {choices.Count} вариантов";
+    }
 }
