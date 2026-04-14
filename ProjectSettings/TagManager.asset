@@ -4,15 +4,12 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - SpawnPoint
-  - Npc
-  - Character
-  - GameManager
+  - Enemy
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - Ground
+  - 
   - Water
   - UI
   - 
