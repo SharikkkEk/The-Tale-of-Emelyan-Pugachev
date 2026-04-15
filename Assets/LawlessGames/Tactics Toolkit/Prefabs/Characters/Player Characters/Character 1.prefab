@@ -5,6 +5,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 849432966597489293, guid: 94912624c52864e4e833d8cbca8aec94, type: 3}
@@ -14,6 +15,14 @@ PrefabInstance:
     - target: {fileID: 4105686119712588667, guid: 94912624c52864e4e833d8cbca8aec94, type: 3}
       propertyPath: m_RootOrder
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4105686119712588667, guid: 94912624c52864e4e833d8cbca8aec94, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4105686119712588667, guid: 94912624c52864e4e833d8cbca8aec94, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 4105686119712588667, guid: 94912624c52864e4e833d8cbca8aec94, type: 3}
       propertyPath: m_LocalPosition.x
@@ -63,7 +72,25 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 6242946189871371064, guid: 94912624c52864e4e833d8cbca8aec94, type: 3}
+      propertyPath: m_Size.x
+      value: 10.24
+      objectReference: {fileID: 0}
+    - target: {fileID: 6242946189871371064, guid: 94912624c52864e4e833d8cbca8aec94, type: 3}
+      propertyPath: m_Size.y
+      value: 10.24
+      objectReference: {fileID: 0}
+    - target: {fileID: 6242946189871371064, guid: 94912624c52864e4e833d8cbca8aec94, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 2b55b3b06fd0bc0419cdc4a2948ef33a, type: 3}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5327592089550427355, guid: 94912624c52864e4e833d8cbca8aec94, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1403721286}
   m_SourcePrefab: {fileID: 100100000, guid: 94912624c52864e4e833d8cbca8aec94, type: 3}
 --- !u!1 &9092668368030157216 stripped
 GameObject:

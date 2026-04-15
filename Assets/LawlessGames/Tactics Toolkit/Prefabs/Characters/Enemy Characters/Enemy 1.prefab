@@ -5,6 +5,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: -1635620607339175185, guid: 758534b12c99743498182c67c23437ee, type: 3}
@@ -26,6 +27,18 @@ PrefabInstance:
     - target: {fileID: 4105686119712588667, guid: 758534b12c99743498182c67c23437ee, type: 3}
       propertyPath: m_RootOrder
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4105686119712588667, guid: 758534b12c99743498182c67c23437ee, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4105686119712588667, guid: 758534b12c99743498182c67c23437ee, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4105686119712588667, guid: 758534b12c99743498182c67c23437ee, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4105686119712588667, guid: 758534b12c99743498182c67c23437ee, type: 3}
       propertyPath: m_LocalPosition.x
@@ -71,7 +84,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6242946189871371064, guid: 758534b12c99743498182c67c23437ee, type: 3}
+      propertyPath: m_FlipX
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6242946189871371064, guid: 758534b12c99743498182c67c23437ee, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 6b2b9dab35d31c1499b2a82347d24734, type: 3}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 758534b12c99743498182c67c23437ee, type: 3}
 --- !u!114 &8160049752610630508 stripped
 MonoBehaviour:
