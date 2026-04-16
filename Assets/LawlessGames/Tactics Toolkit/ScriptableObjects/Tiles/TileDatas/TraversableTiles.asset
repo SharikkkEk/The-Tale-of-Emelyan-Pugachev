@@ -15,6 +15,7 @@ MonoBehaviour:
   baseTiles:
   - {fileID: 11400000, guid: 7462959655a8f87459dbc5d82861c031, type: 2}
   - {fileID: 11400000, guid: 89883cebd705bff499f6e6c79a2aba2f, type: 2}
+  - {fileID: 11400000, guid: 220994322f7424d4abf210325915ea65, type: 2}
   hasTooltip: 0
   tooltipName: 
   tooltipDescription: 

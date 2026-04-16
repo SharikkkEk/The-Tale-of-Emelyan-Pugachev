@@ -24,6 +24,7 @@ namespace TacticsToolkit
 
         public int previewPoolCount = 10;
         private Entity activeCharacter;
+        public Entity ActiveCharacter => activeCharacter;
 
         public enum TurnSorting
         {
