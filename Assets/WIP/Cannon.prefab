@@ -1,0 +1,146 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &2435302839245167925
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1463574348335406883, guid: 4ee9499e09475154d832bf9a2259307a, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1463574348335406883, guid: 4ee9499e09475154d832bf9a2259307a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1463574348335406883, guid: 4ee9499e09475154d832bf9a2259307a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1463574348335406883, guid: 4ee9499e09475154d832bf9a2259307a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1463574348335406883, guid: 4ee9499e09475154d832bf9a2259307a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1463574348335406883, guid: 4ee9499e09475154d832bf9a2259307a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1463574348335406883, guid: 4ee9499e09475154d832bf9a2259307a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1463574348335406883, guid: 4ee9499e09475154d832bf9a2259307a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1463574348335406883, guid: 4ee9499e09475154d832bf9a2259307a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1463574348335406883, guid: 4ee9499e09475154d832bf9a2259307a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1463574348335406883, guid: 4ee9499e09475154d832bf9a2259307a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230897217652120742, guid: 4ee9499e09475154d832bf9a2259307a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3221756915989645973, guid: 4ee9499e09475154d832bf9a2259307a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3221756916040943334, guid: 4ee9499e09475154d832bf9a2259307a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5042027590951517879, guid: 4ee9499e09475154d832bf9a2259307a, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5042027590951517879, guid: 4ee9499e09475154d832bf9a2259307a, type: 3}
+      propertyPath: characterClass
+      value: 
+      objectReference: {fileID: 11400000, guid: 727f68830971dfe4aa57b28024eba710, type: 2}
+    - target: {fileID: 7303310408642381955, guid: 4ee9499e09475154d832bf9a2259307a, type: 3}
+      propertyPath: m_Name
+      value: Cannon
+      objectReference: {fileID: 0}
+    - target: {fileID: 7303310408642381955, guid: 4ee9499e09475154d832bf9a2259307a, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 7303310408642381955, guid: 4ee9499e09475154d832bf9a2259307a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8797391149321293664, guid: 4ee9499e09475154d832bf9a2259307a, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: aff1285252f8da34cbdefc9c60b6d4c8, type: 3}
+    - target: {fileID: 9200186939468278768, guid: 4ee9499e09475154d832bf9a2259307a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 39696934006070886, guid: 4ee9499e09475154d832bf9a2259307a, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7303310408642381955, guid: 4ee9499e09475154d832bf9a2259307a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2111820288778151082}
+  m_SourcePrefab: {fileID: 100100000, guid: 4ee9499e09475154d832bf9a2259307a, type: 3}
+--- !u!114 &972238621367981986 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3221756915989645975, guid: 4ee9499e09475154d832bf9a2259307a, type: 3}
+  m_PrefabInstance: {fileID: 2435302839245167925}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &4940867811225343414 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7303310408642381955, guid: 4ee9499e09475154d832bf9a2259307a, type: 3}
+  m_PrefabInstance: {fileID: 2435302839245167925}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2111820288778151082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4940867811225343414}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a67821d0ea4da545a4405a4a9cceb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  level: 10
+  experience: 0
+  requiredExperience: 0
+  teamID: 1
+  activeTile: {fileID: 0}
+  characterClass: {fileID: 11400000, guid: 727f68830971dfe4aa57b28024eba710, type: 2}
+  statsContainer: {fileID: 0}
+  initiativeValue: 0
+  isAlive: 1
+  isActive: 0
+  endTurn: {fileID: 11400000, guid: fdfd2d860fc9f35449f03cd73e2c6948, type: 2}
+  healthBar: {fileID: 972238621367981986}
+  previousTurnCost: -1
+  myRenderer: {fileID: 0}
+  gameConfig: {fileID: 11400000, guid: eaeab84eb6b1df54eb4c6951b5ec44ae, type: 2}

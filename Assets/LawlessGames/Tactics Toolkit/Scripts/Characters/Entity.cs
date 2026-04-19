@@ -52,6 +52,7 @@ namespace TacticsToolkit
 
         public void SpawnCharacter()
         {
+            CheckTeamAndRotate();
             SetAbilityList();
             SetStats();
             requiredExperience = gameConfig.GetRequiredExp(level);
@@ -392,6 +393,14 @@ namespace TacticsToolkit
                 activeTile.activeCharacter = null;
                 activeTile.isBlocked = false;
                 activeTile = null;
+            }
+        }
+
+        private void CheckTeamAndRotate()
+        {
+            if (gameObject.CompareTag("Enemy"))
+            {
+                transform.rotation = Quaternion.Euler(0, 180, 0);
             }
         }
     }
