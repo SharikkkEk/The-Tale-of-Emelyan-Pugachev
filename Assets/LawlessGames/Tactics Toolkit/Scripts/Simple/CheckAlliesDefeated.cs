@@ -8,7 +8,7 @@ namespace TacticsToolkit
 {
     public class CheckAlliesDefeated : MonoBehaviour
     {
-        public string targetSceneName = "8 - Final Scene";
+        public string targetSceneName = "Menu";
         public float delayBeforeSwitch = 1f;
 
         private bool sceneSwitched = false;

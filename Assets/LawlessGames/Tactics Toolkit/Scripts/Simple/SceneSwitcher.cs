@@ -23,5 +23,10 @@ namespace TacticsToolkit
         {
             SceneManager.LoadScene(sceneIndex - 1);
         }
+
+        public void LoadMenu() 
+        {
+            SceneManager.LoadScene("Menu");
+        }
     }
 }

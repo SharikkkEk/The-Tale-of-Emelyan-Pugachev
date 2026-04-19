@@ -139,10 +139,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d45f9246fe4f3542856cd6c7e714c2f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  level: 0
+  level: 10
   experience: 0
   requiredExperience: 0
-  teamID: 0
+  teamID: 2
   activeTile: {fileID: 0}
   characterClass: {fileID: 11400000, guid: 097b5f6eb822e8b4a9eeb7d7a8d2508f, type: 2}
   statsContainer: {fileID: 0}

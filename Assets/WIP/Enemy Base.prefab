@@ -162,8 +162,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4105686119712588667}
   - component: {fileID: 6242946189871371064}
-  - component: {fileID: -1635620607339175185}
   - component: {fileID: -6653559186491598678}
+  - component: {fileID: -1635620607339175185}
   m_Layer: 0
   m_Name: Enemy Base
   m_TagString: Enemy
@@ -239,6 +239,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 1
+--- !u!114 &-6653559186491598678
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5327592089550427355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ababf6510a56d59429e9b9f6ff953a54, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &-1635620607339175185
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -272,18 +284,6 @@ MonoBehaviour:
   moveAlongPath: {fileID: 11400000, guid: e197b2531425d504f91f3cfe3766f0ad, type: 2}
   castAbility: {fileID: 11400000, guid: a8b20fdd92db55e4b9ef025c6e2b8362, type: 2}
   logAction: {fileID: 11400000, guid: 38f2eeb4f825cbe44b3aeb59835e5095, type: 2}
---- !u!114 &-6653559186491598678
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5327592089550427355}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ababf6510a56d59429e9b9f6ff953a54, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &5987636441712080808
 GameObject:
   m_ObjectHideFlags: 0

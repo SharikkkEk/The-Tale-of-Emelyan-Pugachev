@@ -85,6 +85,7 @@ namespace TacticsToolkit
             {
                 CharacterPreview.sprite = characters[0].GetComponent<SpriteRenderer>().sprite;
                 CharacterPreview.color = new Color(1, 1, 1, 0.75f);
+                CharacterPreview.transform.localScale = new Vector3(0.5f, 0.5f, 0.5f);
                 canSpawnCharacter = true;
             } else
             {

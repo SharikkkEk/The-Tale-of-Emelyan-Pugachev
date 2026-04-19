@@ -6,9 +6,8 @@ using UnityEngine.SceneManagement;
 
 namespace TacticsToolkit
 {
-    public class CheckEnemiesDefeated : MonoBehaviour
+    public class CheckEnemiesDefeated : SceneSwitcher
     {
-        public string targetSceneName = "8 - Final Scene";
         public float delayBeforeSwitch = 1f;
 
         private bool sceneSwitched = false;
@@ -22,15 +21,8 @@ namespace TacticsToolkit
 
             if (enemies.Length > 0 && allDead)
             {
-                StartCoroutine(SwitchScene());
+                LoadNextScene();
             }
-        }
-
-        IEnumerator SwitchScene()
-        {
-            sceneSwitched = true;
-            yield return new WaitForSeconds(delayBeforeSwitch);
-            SceneManager.LoadScene(targetSceneName);
         }
     }
 }

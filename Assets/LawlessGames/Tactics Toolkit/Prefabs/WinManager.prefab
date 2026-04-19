@@ -45,7 +45,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 775e39aa9ffed7b408d83d03a8bc0ad3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetSceneName: 8 - Final Scene
   delayBeforeSwitch: 1
 --- !u!114 &8676174443133678657
 MonoBehaviour:
@@ -59,5 +58,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10baef663f6828342bee2305e0d2b113, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetSceneName: 8 - Final Scene
+  targetSceneName: Menu
   delayBeforeSwitch: 1
