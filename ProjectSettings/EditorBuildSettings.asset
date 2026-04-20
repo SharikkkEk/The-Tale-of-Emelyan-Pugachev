@@ -5,9 +5,12 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/LawlessGames/Tactics Toolkit/Scenes/Menu.unity
     guid: 70b29da416b56014f8647906db526d42
+  - enabled: 1
+    path: Assets/LawlessGames/Tactics Toolkit/Scenes/newMenu.unity
+    guid: cb60df2a8e0ed9d478c985f83793e88f
   - enabled: 1
     path: Assets/LawlessGames/Tactics Toolkit/Scenes/NarrativeJaitskiyGorodok.unity
     guid: 760c0caf8ae4dd648a5775e02ccfb50a
